@@ -1,0 +1,162 @@
+body{
+	font-family: Courier New;
+	margin: 0vh;
+}
+ /*- - - H E A D E R- - - */
+header{
+}
+
+
+#header1{
+	border: 1vh;
+	height: 7vh;
+	background-color: black;
+}
+nav{
+	border-bottom:  0.5vh solid black;
+	height: 20vh;
+	background-color: #d17575;	
+}
+#social{
+	float: right;
+	margin-top: 1vh;
+	margin-right: 1vw ;
+	height: 5vh;
+	width: 5vh;
+}
+#social:hover {
+	border:0.1vh solid white;
+	height: 6vh;
+	width: 5.5vh;
+}
+#logo{
+	margin-top: -1vh;
+	float: left;
+	widows: 10vw;
+	height: 23vh;
+}
+/* - - - L I S T - - - */
+ul{
+	margin-top: -2.4vh;
+	list-style: none;
+}
+li{
+	
+	margin-top: 13vh;
+	padding: 0.5vh;
+	float: left;
+	margin-left: 8vw; 
+	font-size: 2.8vh;
+	
+}
+a{
+	color: inherit;
+}
+li:hover{   
+	color: white;
+}
+#selected{
+	font-weight: bolder;
+}
+/* - - - F O O T E R - - -*/
+
+footer{
+	float: none;
+	border-bottom:  0.5vh solid black;
+	border-top:  0.5vh solid black;
+	height: 10vh;
+	background-color: #d17575;
+}
+
+section{
+	
+	background-image: url(../images/back.png);
+	background-size: 100%;
+	height: 400vh;
+	
+}
+article{
+	margin-left: 5vh;
+	margin-right: 5vh;
+	margin-top: 2vh;
+	float: left;
+	width: 40vw;
+	height: 50vh;
+}
+
+aside{
+
+	margin-top: 5vh;
+	margin-left: -7vw;
+	float: left;	
+	width: 37.5vw;
+	height: 52vh;
+}
+#a1{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+}
+#a2{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+}
+#a3{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+}
+#a4{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+}
+#a5{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+}
+#a6{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+}
+#a7{
+	margin-bottom: 5vh;
+	border: 0.5vh solid black;
+	border-radius: 1vh 1vh 1vh 1vh;
+	width: 37.5vw;
+	height: 52vh;
+}
+
+#num2{
+	margin-top: 13vh;
+}
+#num3{
+	margin-top: 19vh;
+}
+#num4{
+	margin-top: 12vh;
+}
+#num5{
+	margin-top: 20vh;
+}
+#num6{
+	margin-top: 5vh;
+}
+#num7{
+	margin-top: 14vh;
+}
+
+
+
+#actor2{
+	margin-top: 8vh;
+}
