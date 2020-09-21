@@ -66,9 +66,18 @@ footer{
 }
 section{
 	
-	background-image: url(../images/back.png);
+	background-image: url("../images/back.png");
+	background-size:50%;
+	background-repeat:repeat;
 	height: 62.5vh;
 	
+}
+#background{
+	background-color:black;
+	background-image: url("../images/background.png");
+	background-repeat:no-repeat;
+	background-size:60%;
+	border:0.5vh solid white;
 }
 aside{
 	float: left;
@@ -76,24 +85,22 @@ aside{
 	margin-left: -9vw;
 	width: 35vw;
 	height: 50vh;
-	
-
 }
 
 article{
 	margin-left: 5vw;
 	margin-top:-2vh;
 	font-size: 3vh;
-	
 	width: 40vw;
 	height: 42vh;
 	float: left;
 	padding: 2vw;
+	color:white;
 }
 h1{
 	color: white;
 
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: 0.4vh 0.4vh 0.4vh #3f6ba9;
 }
 #main{
 	width:35vw;
