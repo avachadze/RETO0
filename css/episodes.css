@@ -29,6 +29,7 @@ header{
 	float: left;
 	widows: 10vw;
 	height: 23vh;
+
 }
 /* - - - L I S T - - - */
 ul{
@@ -50,9 +51,7 @@ a{
 li:hover{   
 	color: white;
 }
-#selected{
 
-}
 /* - - - F O O T E R - - -*/
 
 footer{
@@ -63,15 +62,30 @@ footer{
 }
 #box{
 	
-
-	height: 57.5vh;
+	height: 61.6vh;
 }
 #episode_select {
 	margin-left: -10vh;
 }
 #player {
 	height: 50vh;
-	width: 35vw;
-	margin-top: 2vh;
-	margin-left: 17vw;
+	width: 42.5vw;
+	margin-top: 5vh;
+	margin-left: 15vw;
+	border:1vh solid #d17575;
+	border-radius:2vh 2vh 2vh 2vh;
+
+}
+select{
+	border:0.2vh solid black;
+	border-radius:1vh 1vh 1vh 1vh;
+	background-color:#d17575;
+	font-size:2.5vh;
+	width:7vw;
+	height:5VH;
+	color:white;
+}
+option{
+	background-color:white;
+	color:#d17575;
 }
