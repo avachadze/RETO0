@@ -1,0 +1,117 @@
+body{
+	font-family: Courier New;
+	margin: 0vh;
+}
+ /*- - - H E A D E R- - - */
+header{
+}
+
+
+#header1{
+	border: 1vh;
+	height: 7vh;
+	background-color: black;
+}
+nav{
+	border-bottom:  0.5vh solid black;
+	height: 20vh;
+	background-color: #d17575;	
+}
+#social{
+	float: right;
+	margin-top: 1vh;
+	margin-right: 1vw ;
+	height: 5vh;
+	width: 5vh;
+}
+#social:hover {
+	border:0.1vh solid white;
+	height: 6vh;
+	width: 5.5vh;
+}
+#logo{
+	margin-top: -1vh;
+	float: left;
+	widows: 10vw;
+	height: 23vh;
+}
+/* - - - L I S T - - - */
+ul{
+	margin-top: -2.4vh;
+	list-style: none;
+}
+li{
+	
+	margin-top: 13vh;
+	padding: 0.5vh;
+	float: left;
+	margin-left: 8vw; 
+	font-size: 2.8vh;
+	
+}
+a{
+	color: inherit;
+}
+li:hover{   
+	color: white;
+	
+}
+#selected{
+	font-weight: bolder;
+}
+/*- - - S E C T I O N - - -*/
+section{
+	
+	background-image: url(../images/back.png);
+	height:188vh;
+	
+}
+
+#space{
+	
+}
+article{
+	height: 53.5vh;
+	width: 20vw;
+	margin-right: 9vw;
+	float: right; 
+	margin-top: 5vh;
+	text-align: center;
+	border: 0.5vh solid black;
+	border-radius: 2vh 2vh 2vh 2vh;
+	
+
+}
+#merch{
+	width: 20vw;
+	height: 40vh;
+}
+h5{
+	margin-top: -2vh;
+}
+h6{
+	margin-top: -0.5vh;
+}
+button{
+	margin-top: -1vh;
+	border-radius: 1vh 1vh 1vh 1vh;
+	color: white;
+	font-weight: bolder;
+	height: 3.5vh;
+	font-size: 2vh;
+	background-color: #f6a3a3;
+}
+button:hover{
+	background-color: #d17575;
+	height: 4vh;
+	width: 4vw;
+}
+/* - - - F O O T E R - - -*/
+
+footer{
+	float: none;
+	border-bottom:  0.5vh solid black;
+	border-top:  0.5vh solid black;
+	height: 10vh;
+	background-color: #d17575;
+}

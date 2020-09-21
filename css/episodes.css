@@ -1,0 +1,77 @@
+body{
+	margin: 0vh;
+}
+ /*- - - H E A D E R- - - */
+header{
+}
+
+
+#header1{
+	border: 1vh;
+	height: 7vh;
+	background-color: black;
+}
+#header2{
+	border-bottom:  0.5vh solid black;
+	height: 20vh;
+	background-color: #d17575;	
+}
+#social{
+	float: right;
+	margin-top: 0.5vh;
+	margin-right: 1vw ;
+	height: 5vh;
+	width: 5vh;
+}
+#social:hover { border:0.1vh solid white; }
+#logo{
+	margin-top: -1vh;
+	float: left;
+	widows: 10vw;
+	height: 23vh;
+}
+/* - - - L I S T - - - */
+ul{
+	margin-top: -2.4vh;
+	list-style: none;
+}
+li{
+	
+	margin-top: 13vh;
+	padding: 0.5vh;
+	float: left;
+	margin-left: 9vw; 
+	font-size: 2.8vh;
+	
+}
+a{
+	color: inherit;
+}
+li:hover{   
+	color: white;
+}
+#selected{
+
+}
+/* - - - F O O T E R - - -*/
+
+footer{
+	border-bottom:  0.5vh solid black;
+	border-top:  0.5vh solid black;
+	height: 15vh;
+	background-color: #d17575;
+}
+#box{
+	
+
+	height: 57.5vh;
+}
+#episode_select {
+	margin-left: -10vh;
+}
+#player {
+	height: 50vh;
+	width: 35vw;
+	margin-top: 2vh;
+	margin-left: 17vw;
+}

@@ -1,0 +1,101 @@
+body{
+	font-family: Courier New;
+	margin: 0vh;
+}
+ /*- - - H E A D E R- - - */
+header{
+}
+
+
+#header1{
+	border: 1vh;
+	height: 7vh;
+	background-color: black;
+}
+nav{
+	border-bottom:  0.5vh solid black;
+	height: 20vh;
+	background-color: #d17575;	
+}
+#social{
+	float: right;
+	margin-top: 1vh;
+	margin-right: 1vw ;
+	height: 5vh;
+	width: 5vh;
+}
+#social:hover {
+	border:0.1vh solid white;
+	height: 6vh;
+	width: 5.5vh;
+}
+#logo{
+	margin-top: -1vh;
+	float: left;
+	widows: 10vw;
+	height: 23vh;
+}
+/* - - - L I S T - - - */
+ul{
+	margin-top: -2.4vh;
+	list-style: none;
+}
+li{
+	
+	margin-top: 13vh;
+	padding: 0.5vh;
+	float: left;
+	margin-left: 8vw; 
+	font-size: 2.8vh;
+	
+}
+a{
+	color: inherit;
+}
+li:hover{   
+	color: white;
+}
+#selected{
+	font-weight: bolder;
+}
+/* - - - F O O T E R - - -*/
+
+footer{
+	float: none;
+	border-bottom:  0.5vh solid black;
+	border-top:  0.5vh solid black;
+	height: 10vh;
+	background-color: #d17575;
+}
+section{
+	
+	background-image: url(../images/back.png);
+	height: 69vh;
+	
+}
+article{
+	margin-top: 4vh;
+	float: left;
+	margin-right: 7vh;
+
+	
+	width: 20vw;
+	height: 30vh;
+
+}
+#first{
+	margin-left: -10vw;
+}
+#second{
+	margin-left: 11vh;
+}
+video{
+	height: 25vh;
+}
+h5{
+	margin-top: -0.2vh;
+	border-bottom: 0.5vh solid black;
+	width: 21.3vw;
+	border-radius: 2vh;
+}
+}

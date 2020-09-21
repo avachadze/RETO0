@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Episodes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/episodes.css">
+</head>
+<body>
+	<header>
+		<div id="header1">
+			<a href="">
+				<img href="#" id="social" src="../logos/instagram.png">
+			</a>
+			<a href="#">
+				<img href="#" id="social" src="../logos/facebook.png">
+			</a>
+			<a href="#">
+				<img href="#" id="social" src="../logos/twitter.png">
+			</a>
+
+		</div>
+		<div id="header2"> <!-- This is where the list (description,videos..) will go. -->
+			<img id="logo" src="../logos/logo.png">
+			<ul>
+				<a href="../index.html"><li>Description</li></a>
+				<a href="#"><li id="selected">Episodes</li></a>
+				<a href="#"><li>Actors</li></a>
+				<a href="#"><li>Merchandising</li></a>
+				<a href="#"><li>Videos</li></a>
+			</ul>
+		</div>
+	</header>
+
+	<!--middle -->
+	<section id="box">
+			<select id="episode_select">
+				<option value="1" onclick="changeEp()">Ep1</option>
+				<option value="2" onclick="changeEp()">Ep2</option>
+				<option value="3" onclick="changeEp()">Ep3</option>
+				<option value="4" onclick="changeEp()">Ep4</option>
+				<option value="5" onclick="changeEp()">Ep5</option>
+				<option value="6" onclick="changeEp()">Ep6</option>
+				<option value="7" onclick="changeEp()">Ep7</option>
+				<option value="8" onclick="changeEp()">Ep8</option>
+				<option value="9" onclick="changeEp()">Ep9</option>
+				<option value="10" onclick="changeEp()">Ep10</option>
+				<option value="11" onclick="changeEp()">Ep11</option>
+				<option value="12" onclick="changeEp()">Ep12</option>
+			</select>
+
+			<video id="player" controls>
+				<source src="../videos/Ep1.mp4" type="video/mp4">
+				ERROR
+			</video>
+	</section>
+
+	<footer>
+		
+	</footer>
+	<script type="text/javascript">
+		
+		function changeEp() {
+			var selection = document.getElementById('episode_select');
+			var vid = document.getElementById('player');
+			var option;
+			var loop = 0;
+			do {
+				option = selection.options[loop];
+				loop++;
+			} while (loop < selection.options.length && option.selected != true);
+			vid.src ="../videos/Ep" + loop +".mp4";
+		}
+	</script>
+</body>
+</html>
